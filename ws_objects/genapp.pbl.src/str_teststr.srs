@@ -1,5 +1,8 @@
 ﻿$PBExportHeader$str_teststr.srs
 global type str_teststr from structure
 	string		str_string
+	httpclient		str_hc		descriptor "comment" = "httpclient"
+	str_contact		str_contacts[]
+	boolean		str_diplay		descriptor "comment" = "wether its display"
 end type
 
