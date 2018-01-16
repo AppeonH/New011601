@@ -6,6 +6,7 @@
  "genapp.sra" "genapp.pbl";
  "d_richtext.srd" "genapp.pbl";
  "d_treeview.srd" "genapp.pbl";
+ "p_genapp_exe.srj" "genapp.pbl";
  "m_genapp_frame.srm" "genapp.pbl";
  "m_genapp_sheet.srm" "genapp.pbl";
  "str_teststr.srs" "genapp.pbl";
