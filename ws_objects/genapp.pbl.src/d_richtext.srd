@@ -1,0 +1,60 @@
+﻿$PBExportHeader$d_richtext.srd
+release 17;
+datawindow(units=2 timer_interval=0 color=1073741824 processing=7 print.printername ="" print.documentname="" print.orientation = 0 print.margin.left = 250 print.margin.right = 250 print.margin.top = 250 print.margin.bottom = 250 print.paper.source = 0 print.paper.size = 0 print.canusedefaultprinter=yes print.prompt=no print.cliptext=no print.overrideprintjob=no print.collate=yes print.background=no print.preview.background=no print.preview.outline=yes richtext.headerfooter=yes richtext.wordwrap=no richtext.popmenu=yes richtext.pictureframe=no richtext.inputfieldnamesvisible=no richtext.inputfieldsvisible=yes richtext.tabsvisible=no richtext.returnsvisible=no richtext.spacesvisible=no richtext.inputfieldbackcolor=1073741824 richtext.backcolor=1073741824 richtext.tabbar=yes richtext.rulerbar=yes richtext.toolbar=yes richtext.displayonly=yes )
+detail(text="{\rtf1\sstecf24000\ansi\deflang1033\ftnbj\uc1\deff0 
+{\fonttbl{\f0 \fswiss Arial;}{\f1 \fswiss \fcharset0 Arial;}}
+{\colortbl ;\red255\green255\blue255 ;\red0\green0\blue0 ;}
+{\stylesheet{\f0\fs24 Normal;}{\cs1 Default Paragraph Font;}}
+{\*\revtbl{Unknown;}}
+\paperw11908\paperh16833\margl0\margr0\margt0\margb0\headery720\footery720\nogrowautofit\deftab720\formshade\nofeaturethrottle1\dntblnsbdb\fet4\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot 
+\sectd\pgwsxn12240\pghsxn15840\guttersxn0\marglsxn0\margrsxn0\margtsxn0\margbsxn0\headery720\footery720\sbkpage\pgncont\pgndec 
+\plain\plain\f0\fs24\ql\plain\f0\fs24 Customer ID: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5000{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname ID}}}{\fldrslt \{ID\}}}\plain\f0\fs24\par 
+First Name: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5001{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname FNAME}}}{\fldrslt \{FNAME\}}}\plain\f0\fs24\ql\par 
+Last Name: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5002{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname LNAME}}}{\fldrslt \{LNAME\}}}\plain\f0\fs24\ql\par 
+Address: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5003{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname ADDRESS}}}{\fldrslt \{ADDRESS\}}}\plain\f0\fs24\ql\par 
+City: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5004{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname CITY}}}{\fldrslt \{CITY\}}}\plain\f0\fs24\ql\par 
+State: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5005{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname STATE}}}{\fldrslt \{STATE\}}}\plain\f0\fs24\ql\par 
+Zip Code: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5006{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname ZIP}}}{\fldrslt \{ZIP\}}}\plain\f0\fs24\ql\par 
+Phone Number: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5007{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname PHONE}}}{\fldrslt \{PHONE\}}}\plain\f0\fs24\ql\par 
+Company Name: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5008{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname COMPANY_NAME}}}{\fldrslt \{COMPANY_NAME\}}}\plain\f0\fs24\ql\par 
+\plain\f0\fs24}
+")
+header(text="{\rtf1\sstecf24000\ansi\deflang1033\ftnbj\uc1\deff0 
+{\fonttbl{\f0 \fswiss Arial;}}
+{\colortbl ;\red255\green255\blue255 ;\red0\green0\blue0 ;}
+{\stylesheet{\f0\fs24 Normal;}{\cs1 Default Paragraph Font;}}
+{\*\revtbl{Unknown;}}
+\paperw11908\paperh16833\margl0\margr0\margt0\margb0\headery720\footery720\nogrowautofit\deftab720\formshade\nofeaturethrottle1\dntblnsbdb\fet4\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot 
+\sectd\pgwsxn12240\pghsxn15840\guttersxn0\marglsxn0\margrsxn0\margtsxn0\margbsxn0\headery720\footery720\sbkpage\pgncont\pgndec 
+\plain\plain\f0\fs24\ql}
+")
+footer(text="{\rtf1\sstecf24000\ansi\deflang1033\ftnbj\uc1\deff0 
+{\fonttbl{\f0 \fswiss Arial;}}
+{\colortbl ;\red255\green255\blue255 ;\red0\green0\blue0 ;}
+{\stylesheet{\f0\fs24 Normal;}{\cs1 Default Paragraph Font;}}
+{\*\revtbl{Unknown;}}
+\paperw11908\paperh16833\margl0\margr0\margt0\margb0\headery720\footery720\nogrowautofit\deftab720\formshade\nofeaturethrottle1\dntblnsbdb\fet4\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot 
+\sectd\pgwsxn12240\pghsxn15840\guttersxn0\marglsxn0\margrsxn0\margtsxn0\margbsxn0\headery720\footery720\sbkpage\pgncont\pgndec 
+\plain\plain\f0\fs24\ql}
+")table(column=(type=long update=yes updatewhereclause=yes key=yes name=id dbname="customer.id" )
+ column=(type=char(15) update=yes updatewhereclause=yes name=fname dbname="customer.fname" )
+ column=(type=char(20) update=yes updatewhereclause=yes name=lname dbname="customer.lname" )
+ column=(type=char(35) update=yes updatewhereclause=yes name=address dbname="customer.address" )
+ column=(type=char(20) update=yes updatewhereclause=yes name=city dbname="customer.city" )
+ column=(type=char(2) update=yes updatewhereclause=yes name=state dbname="customer.state" )
+ column=(type=char(10) update=yes updatewhereclause=yes name=zip dbname="customer.zip" )
+ column=(type=char(12) update=yes updatewhereclause=yes name=phone dbname="customer.phone" )
+ column=(type=char(35) update=yes updatewhereclause=yes name=company_name dbname="customer.company_name" )
+ retrieve="PBSELECT( VERSION(400) TABLE(NAME=~"customer~" ) COLUMN(NAME=~"customer.id~") COLUMN(NAME=~"customer.fname~") COLUMN(NAME=~"customer.lname~") COLUMN(NAME=~"customer.address~") COLUMN(NAME=~"customer.city~") COLUMN(NAME=~"customer.state~") COLUMN(NAME=~"customer.zip~") COLUMN(NAME=~"customer.phone~") COLUMN(NAME=~"customer.company_name~")) " update="customer" updatewhere=1 updatekeyinplace=no )
+column(name=id id=1 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=fname id=2 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=lname id=3 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=address id=4 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=city id=5 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=state id=6 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=zip id=7 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=phone id=8 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=company_name id=9 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+htmltable(border="1" cellpadding="0" cellspacing="0" generatecss="no" nowrap="yes")
+export.xml(headgroups="1" includewhitespace="0" metadatatype=0 savemetadata=0 )
+import.xml()
