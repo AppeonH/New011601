@@ -3,5 +3,6 @@ global type str_contact from structure
 	string		str_string
 	string		str_number		descriptor "comment" = "teniphone Number"
 	string		str_address		descriptor "comment" = "address"
+	string		str_city		descriptor "comment" = "city of contry"
 end type
 
