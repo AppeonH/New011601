@@ -15,4 +15,5 @@
  "w_genapp_sheet2.srw" "genapp.pbl";
  "w_genapp_sheet3.srw" "genapp.pbl";
  "w_genapp_toolbars.srw" "genapp.pbl";
+ "w_test1.srw" "genapp.pbl";
 @end;
