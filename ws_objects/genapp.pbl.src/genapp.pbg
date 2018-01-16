@@ -20,4 +20,5 @@
  "w_genapp_toolbars.srw" "genapp.pbl";
  "w_test.srw" "genapp.pbl";
  "w_test1.srw" "genapp.pbl";
+ "w_test2.srw" "genapp.pbl";
 @end;
