@@ -10,6 +10,7 @@
  "p_genapp_exe.srj" "genapp.pbl";
  "m_genapp_frame.srm" "genapp.pbl";
  "m_genapp_sheet.srm" "genapp.pbl";
+ "str_contact.srs" "genapp.pbl";
  "str_teststr.srs" "genapp.pbl";
  "n_genapp_connectservice.sru" "genapp.pbl";
  "n_genapp_sheetmanager.sru" "genapp.pbl";
