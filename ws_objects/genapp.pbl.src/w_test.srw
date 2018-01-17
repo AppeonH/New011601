@@ -2,6 +2,8 @@
 forward
 global type w_test from w_genapp_basesheet
 end type
+type httpclient_1 from httpclient within w_test
+end type
 type mle_1 from multilineedit within w_test
 end type
 end forward
@@ -21,6 +23,7 @@ string icon = "AppIcon!"
 boolean center = true
 event type integer ue_test ( )
 event type integer ue_test2 ( )
+httpclient_1 httpclient_1
 mle_1 mle_1
 end type
 global w_test w_test
@@ -33,11 +36,13 @@ event type integer ue_test2();return		0
 end event
 
 on w_test.create
+this.httpclient_1=create httpclient_1
 this.mle_1=create mle_1
 this.Control[]={this.mle_1}
 end on
 
 on w_test.destroy
+destroy(this.httpclient_1)
 destroy(this.mle_1)
 end on
 
@@ -62,4 +67,18 @@ long textcolor = 33554432
 string text = "Untitled for Sheet 4"
 borderstyle borderstyle = stylelowered!
 end type
+
+type httpclient_1 from httpclient within w_test descriptor "pb_nvo" = "true" 
+end type
+
+on httpclient_1.create
+call super::create
+TriggerEvent( this, "constructor" )
+end on
+
+on httpclient_1.destroy
+TriggerEvent( this, "destructor" )
+call super::destroy
+end on
+
 

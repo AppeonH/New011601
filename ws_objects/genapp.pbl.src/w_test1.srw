@@ -4,6 +4,8 @@ global type w_test1 from window
 end type
 type cb_1 from commandbutton within w_test1
 end type
+type httpclient_1 from httpclient within w_test1
+end type
 end forward
 
 global type w_test1 from window
@@ -20,16 +22,19 @@ string icon = "AppIcon!"
 boolean clientedge = true
 boolean center = true
 cb_1 cb_1
+httpclient_1 httpclient_1
 end type
 global w_test1 w_test1
 
 on w_test1.create
 this.cb_1=create cb_1
+this.httpclient_1=create httpclient_1
 this.Control[]={this.cb_1}
 end on
 
 on w_test1.destroy
 destroy(this.cb_1)
+destroy(this.httpclient_1)
 end on
 
 type cb_1 from commandbutton within w_test1
@@ -46,4 +51,17 @@ fontfamily fontfamily = swiss!
 string facename = "Tahoma"
 string text = "none"
 end type
+
+type httpclient_1 from httpclient within w_test1 descriptor "pb_nvo" = "true" 
+end type
+
+on httpclient_1.create
+call super::create
+TriggerEvent( this, "constructor" )
+end on
+
+on httpclient_1.destroy
+TriggerEvent( this, "destructor" )
+call super::destroy
+end on
 
