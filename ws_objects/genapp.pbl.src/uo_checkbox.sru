@@ -15,7 +15,7 @@ fontfamily fontfamily = swiss!
 string facename = "Tahoma"
 long textcolor = 255
 long backcolor = 67108864
-string text = "none"
+string text = "choose type"
 boolean checked = true
 end type
 global uo_checkbox uo_checkbox
