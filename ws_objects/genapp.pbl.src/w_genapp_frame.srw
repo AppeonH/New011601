@@ -64,8 +64,8 @@ event ue_postopen();//*---------------------------------------------------------
 //*-----------------------------------------------------------------*/
 
 /*  Define sheet windows and their display names */
-string ls_sheets[]  = { "w_genapp_sheet1", "w_genapp_sheet2", "w_genapp_sheet3" }
-string ls_display[]  = { "Untitled for Sheet 1", "Untitled for Sheet 2", "Untitled for Sheet 3" }
+string ls_sheets[]  = { "w_genapp_sheet1", "w_genapp_sheet2", "w_genapp_sheet3","w_test" }
+string ls_display[]  = { "Untitled for Sheet 1", "Untitled for Sheet 2", "Untitled for Sheet 3","Untitled for Sheet 4" }
 
 /*  Register sheet windows with sheet manager  */
 inv_sheetmgt.of_RegisterSheets ( ls_sheets, ls_display )
