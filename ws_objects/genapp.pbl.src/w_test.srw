@@ -79,12 +79,13 @@ lstr_test.str_diplay	=	True
 str_contact		lstr_contact,lstr_Get
 
 lstr_contact.str_address	=	"test address OK"
+lstr_contact.str_city	=	'chinese'
 
 lstr_test.str_contacts[1]	=	lstr_contact
 
 lstr_Get	=	lstr_test.str_contacts[1]
 
-Messagebox ("Message",lstr_Get.str_address )
+Messagebox ("Message",lstr_Get.str_city+"	"+lstr_Get.str_address )
 end event
 
 type mle_1 from multilineedit within w_test
