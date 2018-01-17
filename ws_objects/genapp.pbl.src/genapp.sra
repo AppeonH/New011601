@@ -12,24 +12,25 @@ end forward
 
 global type genapp from application
 string appname = "genapp"
+boolean righttoleft = true
 end type
 global genapp genapp
 
 on genapp.create
-appname = "genapp"
-message = create message
-sqlca = create transaction
-sqlda = create dynamicdescriptionarea
-sqlsa = create dynamicstagingarea
-error = create error
+appname="genapp"
+message=create message
+sqlca=create transaction
+sqlda=create dynamicdescriptionarea
+sqlsa=create dynamicstagingarea
+error=create error
 end on
 
 on genapp.destroy
-destroy( sqlca )
-destroy( sqlda )
-destroy( sqlsa )
-destroy( error )
-destroy( message )
+destroy(sqlca)
+destroy(sqlda)
+destroy(sqlsa)
+destroy(error)
+destroy(message)
 end on
 
 event open;//*-----------------------------------------------------------------*/
